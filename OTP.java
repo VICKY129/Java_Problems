@@ -31,7 +31,7 @@ public class OTP {
 			    }
 				result+=String.valueOf((sum/10)+(sum%10));
 				result+=str.substring(0,1);
-				String x=s.substring(6,10);
+				String x=s.substring(5,10);
 				int mus=0;
 				for(int i=0;i<x.length();i++){
 			    	mus+=Integer.parseInt(String.valueOf(x.charAt(i)));
